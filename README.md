@@ -1,2 +1,151 @@
-# donkenqueenamerta
-DONKEN QUEEN AMERTA
+[donkenqueen.html](https://github.com/user-attachments/files/23380914/donkenqueen.html)[Uploading donke<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Donken Queen Amerta — Spesialis Donat</title>
+  <meta name="description" content="Donken Queen Amerta — donat lembut dan fresh setiap hari di Jodipan, Malang. Pesan via WA untuk pickup atau delivery lokal."/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fffaf5; --accent:#ff5a7a; --accent-2:#ffb3c0; --muted:#666;
+      --card:#fff; --shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+    *{box-sizing:border-box}
+    body{font-family:'Poppins',sans-serif;margin:0;background:var(--bg);color:#222;-webkit-font-smoothing:antialiased}
+    .wrap{max-width:1100px;margin:24px auto;padding:18px}
+    /* header */
+    .top{display:flex;align-items:center;gap:16px}
+    .logo{width:78px;height:78px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:22px;box-shadow:var(--shadow)}
+    .brand h1{margin:0;font-size:20px}
+    .brand p{margin:4px 0 0;color:var(--muted);font-size:14px}
+    /* hero */
+    .hero{margin-top:18px;background:#fff;border-radius:14px;overflow:hidden;box-shadow:var(--shadow);display:grid;grid-template-columns:1fr;gap:0}
+    @media(min-width:900px){.hero{grid-template-columns:1fr 420px}}
+    .hero-left{padding:28px}
+    .hero-title{color:var(--accent);font-size:22px;margin:0 0 8px}
+    .hero-desc{color:#333;margin:0 0 14px}
+    .buy-box{background:linear-gradient(120deg,#fff 0%, #fff 60%);border-radius:12px;padding:18px;margin-top:12px;border:1px solid rgba(0,0,0,0.03)}
+    .price{font-weight:800;color:var(--accent);font-size:18px}
+    .cta{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+    .btn{padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-primary{background:var(--accent);color:#fff}
+    .btn-outline{border:1px solid var(--accent);color:var(--accent);background:transparent}
+    .hero-right{background-image:url('https://images.unsplash.com/photo-1606851090162-45b4f9b9a4f6?auto=format&fit=crop&w=1200&q=80');background-size:cover;background-position:center;min-height:260px;display:flex;flex-direction:column;justify-content:flex-end;padding:18px;color:white}
+    .badge{background:rgba(0,0,0,0.35);padding:8px 10px;border-radius:10px;display:inline-block;font-weight:700}
+    /* menu */
+    section{margin-top:20px}
+    h2{color:var(--accent);margin-bottom:8px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:520px){.grid{grid-template-columns:1fr}}
+    .card{background:var(--card);border-radius:12px;padding:12px;box-shadow:var(--shadow);text-align:center}
+    .card img{width:100%;height:140px;object-fit:cover;border-radius:10px}
+    .card h4{margin:10px 0 6px;color:#222}
+    .card p{color:var(--muted);font-size:13px;margin:0}
+    /* reviews */
+    .reviews{display:flex;flex-direction:column;gap:12px}
+    .rev{background:var(--card);padding:12px;border-radius:10px;box-shadow:var(--shadow)}
+    /* gallery */
+    .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+    @media(max-width:900px){.gallery{grid-template-columns:repeat(2,1fr)}}
+    .gallery img{width:100%;height:120px;object-fit:cover;border-radius:8px}
+    /* footer */
+    footer{margin-top:26px;padding:18px;text-align:center;color:#fff;background:linear-gradient(120deg,var(--accent),var(--accent-2));border-radius:10px}
+    a{color:inherit}
+    small{color:var(--muted);display:block;margin-top:6px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- header -->
+    <div class="top">
+      <div class="logo">DQ</div>
+      <div class="brand">
+        <h1>Donken Queen Amerta</h1>
+        <p>Spesialis Donat Lembut & Fresh — Jodipan, Malang</p>
+      </div>
+    </div>
+
+    <!-- hero / product box -->
+    <div class="hero">
+      <div class="hero-left">
+        <h3 class="hero-title">Donat Lembut, Cita Rasa yang Bikin Ketagihan</h3>
+        <p class="hero-desc">Fresh tiap hari — varian klasik sampai kekinian. Pesan lewat WhatsApp untuk pickup atau antar area Malang.</p>
+
+        <div class="buy-box">
+          <h4 style="margin:0 0 6px">Paket Best Seller — Box 6 Donat</h4>
+          <div><span class="price">Rp 75.000</span> <small style="margin-left:6px;color:var(--muted)">Sudah termasuk kemasan</small></div>
+          <div class="cta">
+            <a class="btn btn-primary" href="https://wa.me/6281234567890?text=Halo%20Donken%20Queen%20Amerta,%20saya%20mau%20pesan%20Box%206%20Donat" target="_blank">Pesan via WA</a>
+            <a class="btn btn-outline" href="tel:+6281234567890">Telepon</a>
+            <a class="btn" href="#menu" style="background:#fff;border-radius:10px">Lihat Menu Lain</a>
+          </div>
+        </div>
+
+        <small>Jam buka: 08:00 — 19:00 (Setiap hari) • Pesanan custom untuk acara bisa DM/WA</small>
+      </div>
+
+      <div class="hero-right">
+        <div class="badge">Best Seller • Box 6</div>
+      </div>
+    </div>
+
+    <!-- menu -->
+    <section id="menu">
+      <h2>Menu Donat</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1604916323439-3d3f2f3d08eb?auto=format&fit=crop&w=800&q=80" alt="Donat Glaze">
+          <h4>Donat Glaze</h4>
+          <p>Donat klasik dengan lapisan gula mengilap.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1608219959300-40f5eacdf5a6?auto=format&fit=crop&w=800&q=80" alt="Donat Cokelat">
+          <h4>Donat Cokelat</h4>
+          <p>Donat lembut dengan topping cokelat lumer.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80" alt="Donat Keju">
+          <h4>Donat Keju</h4>
+          <p>Taburan keju gurih yang pas dengan tekstur lembut donat.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- reviews + buy -->
+    <section>
+      <h2>Testimoni</h2>
+      <div class="reviews">
+        <div class="rev"><strong>Rina S.</strong><br><small>\"Donatnya lembut banget, recommended!\"</small></div>
+        <div class="rev"><strong>Andi P.</strong><br><small>\"Pesan 2 box buat acara, tamu suka semua.\"</small></div>
+      </div>
+    </section>
+
+    <!-- gallery -->
+    <section id="gallery">
+      <h2>Galeri</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1606851090162-45b4f9b9a4f6?auto=format&fit=crop&w=800&q=80" alt="Toko Donken Queen">
+        <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80" alt="Donat Cokelat">
+        <img src="https://images.unsplash.com/photo-1548365328-5473d1d2d3c7?auto=format&fit=crop&w=800&q=80" alt="Donat Keju">
+        <img src="https://images.unsplash.com/photo-1589984662646-5489e43a636e?auto=format&fit=crop&w=800&q=80" alt="Donat Varian">
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <h2>Kontak & Lokasi</h2>
+      <p style="color:var(--muted)">📍 <a href="https://maps.app.goo.gl/tD3nLFrFGT2FYMMi8" target="_blank">Donken Queen Amerta — Jodipan, Blimbing, Malang</a></p>
+      <p style="color:var(--muted)">📞 <a href="https://wa.me/6281234567890">+62 812-3456-7890</a> (WhatsApp)</p>
+      <p style="color:var(--muted)">📷 Instagram: <a href="https://instagram.com/donkenqueen">@donkenqueen</a></p>
+    </section>
+
+    <footer>
+      <strong>Donken Queen Amerta</strong><br>
+      <small>Spesialis donat lembut dari Malang • © 2025</small>
+    </footer>
+  </div>
+</body>
+</html>
+nqueen.html…]()
